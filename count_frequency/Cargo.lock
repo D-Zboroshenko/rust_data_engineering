@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "cli-utils"
+version = "0.1.1"
+
+[[package]]
 name = "count_frequency"
 version = "0.1.0"
+dependencies = [
+ "cli-utils",
+]
