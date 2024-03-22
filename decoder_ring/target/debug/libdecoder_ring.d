@@ -1,0 +1,1 @@
+/Users/dimazboroshenko/study/learning_rust/rust_data_engineering/decoder_ring/target/debug/libdecoder_ring.rlib: /Users/dimazboroshenko/study/learning_rust/rust_data_engineering/decoder_ring/src/lib.rs

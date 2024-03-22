@@ -1,0 +1,1 @@
+/Users/dimazboroshenko/study/learning_rust/rust_data_engineering/mutable_fruit_salad/target/debug/mutable_fruit_salad: /Users/dimazboroshenko/study/learning_rust/rust_data_engineering/mutable_fruit_salad/src/main.rs
