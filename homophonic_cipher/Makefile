@@ -11,3 +11,6 @@ run:
 	cargo run 
 
 all: format lint test run
+
+clean:
+	cargo clean

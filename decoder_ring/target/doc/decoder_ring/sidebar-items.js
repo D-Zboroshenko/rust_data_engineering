@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["decrypt","guess_shift","print_stats_analysis"]};

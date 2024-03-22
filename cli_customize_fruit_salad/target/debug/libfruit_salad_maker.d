@@ -1,1 +1,0 @@
-/Users/dimazboroshenko/study/learning_rust/rust_data_engineering/cli_customize_fruit_salad/target/debug/libfruit_salad_maker.rlib: /Users/dimazboroshenko/study/learning_rust/rust_data_engineering/cli_customize_fruit_salad/src/lib.rs
