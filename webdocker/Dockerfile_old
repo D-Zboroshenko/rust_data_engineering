@@ -1,0 +1,15 @@
+FROM ubuntu:20.04
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install libssl-dev -y
+
+RUN apt-get install -y -q build-essential curl
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+ENV APP webdocker
+WORKDIR /usr/src/$APP
+COPY . .
+RUN cargo install --path .
+#export this actix web service to port 8080 and 0.0.0.0
+EXPOSE 8080
+CMD ["webdocker"]
